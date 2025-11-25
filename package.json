@@ -1,0 +1,43 @@
+{
+  "name": "llm_rag",
+  "version": "1.0.0",
+  "description": "Projeto para o estudo de LLM e RAG",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel de Oliveira Rigo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/neo4j": "^2.0.6",
+    "@types/node": "^22.14.1",
+    "@typescript-eslint/eslint-plugin": "^8.30.1",
+    "@typescript-eslint/parser": "^8.30.1",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.13.3",
+    "@langchain/community": "^0.3.41",
+    "@langchain/core": "^0.3.45",
+    "@langchain/ollama": "^0.2.0",
+    "@langchain/openai": "^0.5.5",
+    "@langchain/pinecone": "^0.2.0",
+    "@mistralai/mistralai": "^1.10.0",
+    "axios": "^1.13.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.36",
+    "neo4j": "^2.0.0-RC2",
+    "neo4j-driver": "^5.28.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
